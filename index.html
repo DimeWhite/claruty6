@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="ellipse()">
+    <div class="first-block">
+        <header>
+            <img class="logo" src="static/img/logo%201.svg">
+            <nav>
+                <ul>
+                    <li>Наши кейсы</li>
+                    <li>Отзывы</li>
+                    <li>Частые вопросы</li>
+                    <li>Контакты</li>
+                </ul>
+            </nav>
+            <div class="social">
+                <img src="static/img/vk.svg">
+                <img src="static/img/facebook.svg">
+                <img src="static/img/youtube.svg">
+
+            </div>
+        </header>
+        <div class="content">
+            <article>
+                <h1>Кемпинг<br>для больших компаний</h1>
+                <h2>Организуем для вас незабываемый отдых под открытым небом вдали от города</h2>
+                <button>Оставить заявку</button>
+            </article>
+            <ul class="ellipses">
+                <li class="ellipse"></li>
+                <li class="ellipse"></li>
+                <li class="ellipse"></li>
+                <li class="ellipse"></li>
+                <div id='ellipse' class="big-ellipse">
+                    <div class="bellipse"></div>
+                </div>
+            </ul>
+            <div class="feedback">
+                <div class="title">
+                    <img src="static/img/comment.svg">
+                    <h1>Последний отзыв</h1>
+                </div>
+                <div class="text">
+                    <p>Сказать, что это было великолепно - ничего<br>
+                        не сказать. Организация, кейтеринг, палат...</p>
+                    <img src="static/img/arrow.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <img src="static/img/about%201.png">
+        <div class="text">
+            <p>CLARITY</p>
+            <h1>Мы компания 4 друзей,<br>за плечами которых уже<br>более 700 организаций<br>кемпинг-лагерей</h1>
+            <h2>Поможем вам отпраздновать день<br>рождения или провести большой<br>корпоратив до 400 человек<br>в незабываемом<br>месте.</h2>
+
+        </div>
+    </div>
+    <div class="paginator">
+        <aside>
+            <nav>
+                <ul>
+                    <li>Все</li>
+                    <li>В горах</li>
+                    <li>Корпоратив</li>
+                    <li>День рождения</li>
+                    <li>Семейный отдых</li>
+                </ul>
+            </nav>
+        </aside>
+        <canvas>
+        </canvas>
+        <div class="gallery">
+            <figure>
+                <div class="photo" style="background: url('static/img/gallery/gallery.png')">
+                    <div class="people">
+                        <img src="static/img/iconPerson%201.svg">
+                        <p>24</p>
+                    </div>
+                    <p class="place">c. Ильинка</p>
+                </div>
+                <figcaption>
+                    <p class="name">Юбилей в лесу у реки</p>
+                    <p class="info">Семейный праздник Самойловых<br>
+                        с кейтерингом, тамадой<br>
+                        и трансфером</p>
+                </figcaption>
+            </figure>
+            <figure>
+                    <div class="photo" style="background: url('static/img/gallery/gallery.png')">
+                        <div class="people">
+                            <img src="static/img/iconPerson%201.svg">
+                            <p>24</p>
+                        </div>
+                        <p class="place">c. Ильинка</p>
+                    </div>
+                    <figcaption>
+                        <p class="name">Юбилей в лесу у реки</p>
+                        <p class="info">Семейный праздник Самойловых<br>
+                            с кейтерингом, тамадой<br>
+                            и трансфером</p>
+                    </figcaption>
+                </figure>
+            <figure>
+                    <div class="photo" style="background: url('static/img/gallery/gallery.png')">
+                        <div class="people">
+                            <img src="static/img/iconPerson%201.svg">
+                            <p>24</p>
+                        </div>
+                        <p class="place">c. Ильинка</p>
+                    </div>
+                    <figcaption>
+                        <p class="name">Юбилей в лесу у реки</p>
+                        <p class="info">Семейный праздник Самойловых<br>
+                            с кейтерингом, тамадой<br>
+                            и трансфером</p>
+                    </figcaption>
+                </figure>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="form">
+            <h1>Обсудим ваш кемпинг ?</h1>
+            <p>Оставьте номер телефона и мы<br>перезвоним вам в течении 3<br>минут</p>
+            <form>
+                <input required="" id="online_phone" name="phone" type="tel"
+                       autofocus="autofocus"
+                       value="+7(___)___-__-__" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="+7(___)___-__-__">
+                <button type="submit">Отправить заказ</button>
+            </form>
+        </div>
+        <footer>
+            <div class="row">
+                <img src="static/img/logo%201.svg">
+                <nav>
+                    <ul>
+                        <li>Наши кейсы</li>
+                        <li>Отзывы</li>
+                        <li>Частые вопросы</li>
+                        <li>Контакты</li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <img src="static/img/vk.svg">
+                    <img src="static/img/facebook.svg">
+                    <img src="static/img/youtube.svg">
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+        <!--
++7 ([0-9]{3}[0-9]{3}-[0-9]{2}-[0-9]{2}
+
+
+
+
+
+
+-->
+
+</body>
+</html>

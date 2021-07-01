@@ -1,0 +1,443 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.first-block{
+
+    display: block;
+    background: url("static/img/background 1.png") no-repeat center;
+    background-size: auto 100%;
+    height: 1000px;
+
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header .logo{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 138px;
+    height: 31px;
+}
+
+header ul{
+    display: flex;
+
+    justify-content: space-between;
+    margin-left: 339px;
+    margin-top: 51px;
+    width: 666px;
+    height: 22px;
+}
+header li{
+    display: inline;
+    padding-left: 27px;
+    white-space: nowrap;
+
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+header .social{
+    padding-top: 56px;
+    padding-left: 300px;
+}
+.social{
+
+    width: 125px;
+    height: 18px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.social img{
+    margin-right: 38px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.content article{
+    display: flex;
+    flex-direction: column;
+
+}
+.content article h1{
+    padding-top: 110px;
+    padding-left: 150px;
+    color: white;
+    font-size: 90px;
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 591px;
+    height: 270px;
+
+}
+.content article h2{
+    width: 558px;
+    height: 80px;
+    font-family: Montserrat, monospace;
+    font-size: 25px;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 150px;
+    padding-top: 45px;
+}
+.content article button{
+    width: 312px;
+    height: 70px;
+    margin-left : 150px;
+    margin-top: 90px;
+    font-size: 23px;
+    color: white;
+    border: none;
+    background: #FF543D;
+    box-shadow: 0 0 30px rgba(255, 84, 61, 0.3);
+    border-radius: 10px;
+
+    transition: 1s ease;
+}
+
+
+.ellipses{
+    height: 210px;
+    width: 40px;
+    margin: 30px;
+    padding: 270px 151px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ellipse{
+    display: inline;
+    width: 10px;
+    height: 10px;
+    margin: 15px 0;
+    background: #C4C4C4;
+    border-radius: 5px;
+}
+.big-ellipse{
+    width: 42px;
+    height: 42px;
+    background: url("static/img/Group 3 (1).svg"), no-repeat;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+.bellipse{
+    z-index: 2;
+    width: 10px;
+    height: 10px;
+    background: #C4C4C4;
+    border-radius: 50%;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    width: 583px;
+    height: 221px;
+    margin-left: 1187px;
+    margin-top: 38px;
+    border-radius: 16px;
+    background-color: #232F3D;
+}
+.feedback .title{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.feedback .title h1{
+    padding-left: 5px;
+    color: #737E87;
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.feedback .text{
+    display: flex;
+}
+.feedback .text p{
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 60px;
+    font-family: Montserrat, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: white;
+}
+
+.about{
+    margin-top: 105px;
+    margin-left: 150px;
+    display: flex;
+}
+.about p{
+    margin-left: 174px;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FF543D;
+}
+
+.about .text{
+    display: flex;
+    flex-direction: column;
+}
+.about .text h1{
+    margin-top: 65px;
+    margin-left: 174px;
+    width: 787px;
+    height: 240px;
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+}
+.about .text h2{
+    margin-top: 125px;
+    margin-left: 445px;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.paginator{
+    display: flex;
+    flex-direction: column;
+    margin-top: 159px;
+    margin-left: 150px;
+    width: 1621px;
+    height: 539px;
+}
+
+.paginator ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 364px;
+    width: 892px;
+    height: 29px;
+}
+.paginator ul li{
+    display: inline;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-size: 24px;
+}
+.paginator canvas{
+    height: 8px;
+    width: 950px;
+    margin-left: 335px;
+
+    background-color: #FF543D;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gallery figure{
+    margin-left: 30px;
+}
+.gallery figure .photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    width: 383px;
+    height: 254px;
+}
+.gallery figure .photo .people{
+    display: flex;
+    margin-bottom: 17px;
+    margin-left: 13px;
+}
+.gallery figure .photo .people p{
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 9px;
+
+}
+.gallery figure .photo .place{
+
+    margin-right: 13px;
+    padding: 14px;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.gallery figure .name{
+    width: 298px;
+    padding-right: 28px;
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 20px;
+
+}
+.gallery figure .info{
+    width: 360px;
+    height: 57px;
+    margin-top: 29px;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+}
+.foot{
+    width: 1920px;
+    height: 733px;
+    margin-top: 134px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+
+}
+
+.form{
+    width: 1150px;
+    height: 433px;
+    margin-left: 385px;
+    z-index: 1;
+    position: absolute;
+    background: #F3F9FF;
+    border-radius: 10px;
+}
+.form h1{
+    width: 703px;
+    height: 60px;
+    margin-left: 223px;
+    margin-top: 40px;
+
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100.2%;
+    text-align: center;
+}
+.form p{
+    width: 454px;
+    height: 75px;
+    margin-top: 39px;
+    margin-left: 348px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 100.2%;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    width: 226px;
+    height: 52px;
+    border: 1px solid rgba(16, 30, 43, 0.7);
+    box-sizing: border-box;
+    border-radius: 7px;
+    text-align: center;
+    margin-left: 462px;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100.2%;
+}
+
+form button{
+    width: 226px;
+    height: 52px;
+    border-radius: 7px;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 25px;
+    background-color: #FF543D;
+    color: white;
+    line-height: 100.2%;
+    margin-left: 462px;
+    text-align: center;
+
+}
+
+
+footer{
+    width: 1920px;
+    margin-left: 0;
+    z-index: 0;
+    position: absolute;
+    height: 366px;
+    margin-top: 367px;
+    background: #232F3D no-repeat;
+}
+
+footer .row{
+    display: flex;
+    margin-top: 162px;
+    margin-left: 150px;
+}
+
+footer ul{
+    width: 631px;
+    height: 27px;
+    margin-left: 356px;
+}
+footer li{
+    display: inline;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 27px;
+}
+
+footer .social{
+    margin-top: 15px;
+    margin-left: 370px;
+
+}
